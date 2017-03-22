@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#encabezado{
+    background: #FF9800;
+    height: 200px;
+    text-align: center;
+    background-image: url("../IMG/logo.png");
+    background-repeat: no-repeat;
+    background-size: 250px 170px;
+}
+
+.piePagina{
+    /*width: 100%;
+    height: 100px;
+    background: #f44336;
+    bottom: 0;
+    color: white;
+    position: fixed;
+    left: 0px;*/
+    background-color: crimson;
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    position: fixed;
+    left: 0px;
+    text-align: right;
+}
+
+.piePagina2{
+    background-color: firebrick;
+    height: 95px;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    position: fixed;
+    left: 0px;
+    text-align: right;
+}
+
+.piePagina3{
+    background-color: saddlebrown;
+    height: 68px;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    position: fixed;
+    left: 0px;
+    text-align: right;
+}
+
+.piePagina4{
+    background-color: darkblue;
+    height: 103px;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    position: fixed;
+    left: 0px;
+    text-align: right;
+}
+
+.piePagina5{
+    background-color: darkred;
+    height: 103px;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    position: fixed;
+    left: 0px;
+    text-align: right;
+}
+
+.img{
+    width: 400px;
+    height: 200px;
+    position: top;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*#div{
+    height: 220px;
+    text-align: center;
+    position: relative;
+}*/
+.div{
+    background-image: url("../img/metal2.jpg");
+    height: 100%;
+    color: aqua;
+    text-align: center;
+    padding: 25px 0;
+	margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.divw{
+    background-image: url("../img/metal2.jpg");
+    height: 100%;
+    color: aqua;
+    text-align: center;
+    padding: 20px 0;
+	margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.dive{
+    background-image: url("../img/metal2.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: 1500px 380px;
+    height: 100%;
+    color: aqua;
+    text-align: center;
+    padding: 5px 0;
+	margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+div{
+    background-color: gray;
+    height: 190px;
+    width: 100%;
+    text-align: center;
+}
+
+div.centerTable{
+        text-align: center;
+}
+
+ 
+
+div.centerTable table {
+       margin: 0 auto;
+       text-align: left;
+}
+
+p{
+    color: white;
+    font-family: Garamond;
+}
+/* CONFIGURACION DEL MENU */
+
+#menu{
+    height: /*40px*/100%;
+    position: top;
+    top: 180px;
+    color: #333333;
+}
+
+#ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#li{
+    float: left;
+}
+
+li{
+    color: red;
+    text-align: left;
+    font-family: Verdana;
+}
+
+ul{
+    position: relative;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
